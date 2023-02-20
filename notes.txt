@@ -1,0 +1,102 @@
+            ---------------------------------------       
+                      # JSON Tutorial #
+            ---------------------------------------
+
+# What is JSON ?  
+    1. JSON - Java Script Object Notation
+    2. JSON - It is a JavaScript object with some extra rules
+    3. Parse:
+             - It is one method of JavaScript 
+             - parse means -> parse() OR JSON.parse() OR JSON.parse(string)
+             - Here string is nothing but a JSON 
+             - It means that string is converted into JavaScript object
+
+# Why to use JSON ?
+  - It is an alternative of XML
+  - XML is quite diffcult
+  - XML is not human readable
+  - JSON is human readable as it is same as JavaScript
+
+# Extension of JSON file is '.json' e.g 'file.json'
+
+# We can integrate JSON with frontend very easily and effectively
+
+# JSON is much better than XML in case of readability and useability
+
+# JSON files are:
+   - Very light weight 
+   - very small size 
+   - small size -> more readability
+   - Easy to read 
+   - Easy to use 
+
+# JSON file symbol ->  {...}
+
+# 'comments' are not allowed in JSON file
+
+------------------------------------------------
+          #  Properties of JSON  #     
+------------------------------------------------
+
+1. It is Wriiten in curly braces like an object - { }
+   - {....content.....}
+
+2. In dobule qoutes and not single - " "  
+   - "name"
+
+3. Only colon and comma are allowed and not semicolon - ':' and ',' and not ';'
+   -   {
+          "name": "Suraj",
+          "Id": 45
+       }
+   -  Last statement should not have any comma
+
+4. We always write 'key-value' pair in JSON like an object
+   - "key": "value" 
+   - Example: "name": "Suraj"
+   - Here name -> key & Suraj -> value
+
+5. 'key' is always a string
+
+6. 'value' can be anything 
+   - i.e string,number,boolean,null,array,object,nested-object
+         nested-array,object-inside-array,array-inside-Object
+         boolean-inside-array, null-inside-array
+   - We can make nested JSON means JSON inside JSON
+     that is make object in your JSON       
+   - You can go as deep as you want 
+
+
+7. ERROR:
+   - If key is like this -  isAdmin OR  'isAdmin' -> Error will occur
+   - "isAdmin" -> is correct
+
+8. To run JSON or JavaScript you can use:
+   - browser console 
+   - Node.Js
+
+9. When we parse a JSON as a string into parse() method 
+   then it will convert that string into JavaScript object
+   - JSON.parse(string);
+   - We get object - {....}
+   - Example: 
+             #  JSON =  {
+                             "name": "Suraj",
+                             "score": 14.45,
+                             "isAdmin": true
+                        }
+             #  myJson = `JSON`
+             #  myJson = `{
+                             "name": "Suraj",
+                             "score": 14.45,
+                             "isAdmin": true
+                           }`;  
+             #  last semicolon is optional
+             #  myJson is a variable of type string 
+             #  myJson is actually a JSON that is converted into JavaScript object
+             #  myJson is a string which we parse
+             #  string = myJson
+             #  Syntax - JSON.parse(myJson)
+             #  We get object - { name: 'Suraj', score: 14.45, isAdmin: true }
+
+ 10. Tip:  'JSON' should be 'Simple' and 'Easy' to Read and understand...                         

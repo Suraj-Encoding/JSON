@@ -1,0 +1,16 @@
+{
+    "name": "Suraj",
+    "score": 14.45,
+    "isAdmin": true,
+    "license": null,
+    "shopItem": ["Food","Clothes","Sunflower oil"],
+    "myObj": {
+        "name":"nested",
+         "marks": 55
+    },
+    "obj":{
+        "name":"nested",
+        "marks": 55,
+        "shopItem2": ["Food","Clothes",{"a":true}]
+    }
+}
